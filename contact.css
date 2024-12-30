@@ -1,0 +1,143 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #d6d8d7;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    text-shadow: 2px 2px 4px gray; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #5a3c54;
+}
+
+.contact-form h2, p {
+    text-align: center;
+}
+
+.contact-form-section {
+    padding: 50px 20px;
+    background-color: #eac8fa;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    transition: background-color 0.3s;
+}
+
+.contact-form-section:hover {
+    background-color: #f1bdf5;
+}
+
+.contact-form-section h2 {
+    color: #4caf8e;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbc9cc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #4caf99;
+    outline: none;
+}
+
+button {
+    background-color: #58fac4;
+    color: rgb(65, 64, 64);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #4caf96;
+    color: rgb(83, 83, 83);
+}
+
+button:focus {
+    outline: 3px solid #6a2f8c;
+}
+
+button:active {
+    background-color: #5b1e6a;
+    transform: scale(0.98);
+}
+
+.contact-info,
+.social-media {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.contact-info h2,
+.social-media h2 {
+    color: #4cafaa;
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-info a,
+.social-media a {
+    color: #4cafaa;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover,
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    text-align: center;
+}
