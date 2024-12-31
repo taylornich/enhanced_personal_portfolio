@@ -15,9 +15,7 @@ body {
 .content ul {
     padding-left: 0;
 }
-.content ul li {
-    list-style-position: inside;
-}
+
 nav ul {
     list-style: none;
     padding: 0;
