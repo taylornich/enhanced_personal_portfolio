@@ -11,6 +11,7 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    text-shadow: 2px 2px 4px #666;
 }
 
 nav ul {
@@ -21,7 +22,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
     text-shadow: 2px 2px 4px gray;
 }
@@ -38,7 +39,6 @@ nav ul li a:hover {
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px gray;
@@ -51,7 +51,6 @@ h1 {
     max-width: 900px;
     transition: background-color;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .project-section h2 {
@@ -74,6 +73,7 @@ h1 {
 
 .project-info {
     flex: 1;
+    padding: 10px;
 }
 
 .project-info p {
